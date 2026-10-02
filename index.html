@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Voltix — Modern Electronics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="home">
+    <div class="topbar">FREE SHIPPING ON ORDERS OVER $100 · 30-DAY RETURNS</div>
+    <header class="header"><a class="logo" href="index.html"><b>V</b> VOLTIX</a>
+        <nav><a class="active" href="index.html">Home</a><a href="shop.html">Shop</a><a
+                href="#categories">Categories</a><a href="#about">About</a></nav>
+        <div class="actions"><button data-open-search>⌕</button><a href="login.html">Account</a><a href="cart.html">Cart
+                <span class="cart-count">0</span></a></div>
+    </header>
+    <main>
+        <section class="hero">
+            <div>
+                <p class="eyebrow">TECH, REFINED</p>
+                <h1>Better tech.<br><em>Better everyday.</em></h1>
+                <p class="hero-text">Curated electronics built around how you actually live. Powerful devices, clean
+                    design, zero unnecessary noise.</p><a class="btn dark" href="shop.html">Shop collection ↗</a>
+            </div>
+            <div class="hero-art">
+                <div class="orb"></div>
+                <div class="phone"></div>
+                <div class="float-card"><small>NEW ARRIVAL</small><strong>Aero X1</strong><span>$899</span></div>
+            </div>
+        </section>
+        <section class="section" id="categories">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">BROWSE BY TYPE</p>
+                    <h2>Find your next favorite.</h2>
+                </div><a href="shop.html">View all →</a>
+            </div>
+            <div class="categories"><a href="shop.html?category=smartphones"><small>01</small>
+                    <div>
+                        <h3>Smartphones</h3>
+                        <p>Fast, bright, beautifully built.</p>
+                    </div>↗
+                </a><a href="shop.html?category=laptops"><small>02</small>
+                    <div>
+                        <h3>Laptops</h3>
+                        <p>Work without compromise.</p>
+                    </div>↗
+                </a><a href="shop.html?category=audio"><small>03</small>
+                    <div>
+                        <h3>Audio</h3>
+                        <p>Sound that gets out of the way.</p>
+                    </div>↗
+                </a><a href="shop.html?category=accessories"><small>04</small>
+                    <div>
+                        <h3>Accessories</h3>
+                        <p>Small upgrades. Big difference.</p>
+                    </div>↗
+                </a></div>
+        </section>
+        <section class="section">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">THE EDIT</p>
+                    <h2>Featured products.</h2>
+                </div><a href="shop.html">Shop everything →</a>
+            </div>
+            <div class="grid" id="featured-products"></div>
+        </section>
+        <section class="promo">
+            <div>
+                <p class="eyebrow">DESIGNED FOR YOUR DESK</p>
+                <h2>Make your setup<br><em>feel effortless.</em></h2><a class="btn light"
+                    href="shop.html?category=accessories">Upgrade your setup ↗</a>
+            </div>
+            <div class="desk">
+                <div class="monitor"></div>
+                <div class="keyboard"></div>
+            </div>
+        </section>
+        <section class="benefits" id="about">
+            <div>
+                <h3>Curated, not crowded.</h3>
+                <p>Only products worth putting on your desk, in your pocket, or in your bag.</p>
+            </div>
+            <div>
+                <h3>Simple shopping.</h3>
+                <p>Clear pricing, useful specs and a checkout designed to stay out of your way.</p>
+            </div>
+            <div>
+                <h3>Made for real life.</h3>
+                <p>Modern tech chosen for work, creativity, entertainment and everything between.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-main">
+            <div class="logo"><b>V</b> VOLTIX<p>Modern electronics for everyday life.</p>
+            </div>
+            <form id="newsletter"><strong>Get the good stuff, occasionally.</strong>
+                <div><input type="email" placeholder="Your email address" required><button>Subscribe ↗</button></div>
+            </form>
+        </div>
+        <div class="footer-bottom"><span>© 2026 Voltix</span><span>Designed & developed by Irtiza Riaz</span><span><a
+                    href="login.html">Account</a> · <a href="cart.html">Cart</a></span></div>
+    </footer>
+    <div id="toast"></div>
+    <div class="modal" id="search-modal">
+        <div class="search"><button data-close-search>x</button>
+            <p class="eyebrow">SEARCH VOLTIX</p><input id="search-input" placeholder="Search products...">
+            <div id="search-results"></div>
+        </div>
+    </div>
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

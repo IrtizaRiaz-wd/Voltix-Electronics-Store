@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Checkout — Voltix</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="checkout">
+    <header class="header"><a class="logo" href="index.html"><b>V</b> VOLTIX</a><span class="secure">Secure checkout ·
+            Demo store</span></header>
+    <main class="page">
+        <div class="heading small">
+            <p class="eyebrow">CHECKOUT</p>
+            <h1>Almost yours.</h1>
+        </div>
+        <div class="two-col">
+            <form id="checkout-form" class="form">
+                <section>
+                    <h2>Contact</h2><input required type="email" placeholder="Email address">
+                </section>
+                <section>
+                    <h2>Delivery</h2>
+                    <div class="two"><input required placeholder="First name"><input required placeholder="Last name">
+                    </div><input required placeholder="Address">
+                    <div class="two"><input required placeholder="City"><input required placeholder="Postal code"></div>
+                </section>
+                <section>
+                    <h2>Payment</h2>
+                    <p class="notice">Frontend demo — no real payment is processed.</p><input required
+                        placeholder="Card number">
+                    <div class="two"><input required placeholder="MM / YY"><input required placeholder="CVC"></div>
+                </section><button class="btn dark full">Place demo order ↗</button>
+            </form>
+            <aside class="summary" id="checkout-summary"></aside>
+        </div>
+    </main>
+    <div id="toast"></div>
+    <script src="js/products.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
